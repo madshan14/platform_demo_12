@@ -1,0 +1,14 @@
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.deps.json
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.runtimeconfig.json
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.dll
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.pdb
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.csproj.AssemblyReference.cache
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.AssemblyInfoInputs.cache
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.AssemblyInfo.cs
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.csproj.CoreCompileInputs.cache
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.dll
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\refint\PlatformDemoClassLibrary.dll
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.pdb
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.genruntimeconfig.cache
+G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\ref\PlatformDemoClassLibrary.dll
