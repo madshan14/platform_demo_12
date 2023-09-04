@@ -15,12 +15,12 @@ namespace PlatformDemoWebApp.Pages
         }
 
         public List<Customer> Customers { get; set; }
-        public List<Order> Orders { get; set; }
+        public List<Order> Orders { get; set; } 
 
         public void OnGet()
         {
-            this.Customers = this.context.Customers.ToList();
-            this.Orders = this.context.Orders.ToList();
+            this.Customers = this.context.Customers.ToList(); //List of customers retrived from database
+            this.Orders = this.context.Orders.ToList(); //List of Orders retrived from database
         }
     }
 }

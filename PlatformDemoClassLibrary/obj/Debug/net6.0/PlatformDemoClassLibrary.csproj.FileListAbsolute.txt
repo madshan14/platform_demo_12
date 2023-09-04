@@ -12,3 +12,17 @@ G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\refi
 G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.pdb
 G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.genruntimeconfig.cache
 G:\apiProjects\repos\PlatformDemo\PlatformDemoClassLibrary\obj\Debug\net6.0\ref\PlatformDemoClassLibrary.dll
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.deps.json
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.runtimeconfig.json
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.dll
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\bin\Debug\net6.0\PlatformDemoClassLibrary.pdb
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.csproj.AssemblyReference.cache
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.AssemblyInfoInputs.cache
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.AssemblyInfo.cs
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.dll
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\refint\PlatformDemoClassLibrary.dll
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.pdb
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\PlatformDemoClassLibrary.genruntimeconfig.cache
+E:\Visual Studio Projects\platform_demo_12\PlatformDemoClassLibrary\obj\Debug\net6.0\ref\PlatformDemoClassLibrary.dll

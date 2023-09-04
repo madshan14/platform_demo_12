@@ -1051,6 +1051,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
         },
         "compile": {
@@ -3241,24 +3242,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amads\\.nuget\\packages\\": {},
-    "G:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\apiProjects\\repos\\PlatformDemo\\PlatformDemoWebApp\\PlatformDemoWebApp.csproj",
+      "projectUniqueName": "E:\\Visual Studio Projects\\platform_demo_12\\PlatformDemoWebApp\\PlatformDemoWebApp.csproj",
       "projectName": "PlatformDemoWebApp",
-      "projectPath": "G:\\apiProjects\\repos\\PlatformDemo\\PlatformDemoWebApp\\PlatformDemoWebApp.csproj",
-      "packagesPath": "C:\\Users\\amads\\.nuget\\packages\\",
-      "outputPath": "G:\\apiProjects\\repos\\PlatformDemo\\PlatformDemoWebApp\\obj\\",
+      "projectPath": "E:\\Visual Studio Projects\\platform_demo_12\\PlatformDemoWebApp\\PlatformDemoWebApp.csproj",
+      "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+      "outputPath": "E:\\Visual Studio Projects\\platform_demo_12\\PlatformDemoWebApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "G:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\amads\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3266,15 +3262,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "http://csapps.consolsys.intranet:8082/nuget": {},
+        "http://csapps:8082/nuget": {},
+        "http://csapps:8084/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "G:\\apiProjects\\repos\\PlatformDemo\\PlatformDemoClassLibrary\\PlatformDemoClassLibrary.csproj": {
-              "projectPath": "G:\\apiProjects\\repos\\PlatformDemo\\PlatformDemoClassLibrary\\PlatformDemoClassLibrary.csproj"
+            "E:\\Visual Studio Projects\\platform_demo_12\\PlatformDemoClassLibrary\\PlatformDemoClassLibrary.csproj": {
+              "projectPath": "E:\\Visual Studio Projects\\platform_demo_12\\PlatformDemoClassLibrary\\PlatformDemoClassLibrary.csproj"
             }
           }
         }
@@ -3307,8 +3305,28 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://csapps:8084/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://csapps:8082/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://csapps.consolsys.intranet:8082/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
