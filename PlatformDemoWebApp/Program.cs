@@ -1,10 +1,13 @@
 using PlatformDemoClassLibrary.Models;
+using PlatformDemoWebApp.Interfaces;
+using PlatformDemoWebApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<PlatformDemoContext>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
 
 var app = builder.Build();
 

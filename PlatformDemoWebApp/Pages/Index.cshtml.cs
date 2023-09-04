@@ -1,26 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-using PlatformDemoClassLibrary.Models;
+using PlatformDemoWebApp.DTOs;
+using PlatformDemoWebApp.Interfaces;
 
 namespace PlatformDemoWebApp.Pages
 {
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        private readonly PlatformDemoContext context;
+        private readonly ICustomerService customerService;
 
-        public IndexModel(ILogger<IndexModel> logger, PlatformDemoContext context)
+        public IndexModel(ILogger<IndexModel> logger, ICustomerService customerService)
         {
             _logger = logger;
-            this.context = context;
+            this.customerService = customerService;
         }
 
-        public List<Customer> Customers { get; set; }
-        public List<Order> Orders { get; set; } 
+        public List<CustomerResponse> Customers { get; set; }
 
         public void OnGet()
         {
-            this.Customers = this.context.Customers.ToList(); //List of customers retrived from database
-            this.Orders = this.context.Orders.ToList(); //List of Orders retrived from database
+            this.Customers = this.customerService.GetCustomers(); // Retrieved all customers with total amount ordered.
         }
     }
 }

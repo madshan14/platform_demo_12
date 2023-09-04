@@ -1,5 +1,5 @@
 ﻿@page
-@using PlatformDemoClassLibrary.Models;
+@using PlatformDemoWebApp.DTOs;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -13,7 +13,6 @@
             <thead class="thead-dark">
                 <tr>
                     <!-- Table Headers -->
-                    <th>Customer Id</th>
                     <th>Name</th>
                     <th>Phone Number</th>
                     <th>Number of Orders</th>
@@ -22,17 +21,16 @@
             </thead>
             <tbody>
                 <!-- Loop through Customers -->
-                @foreach (Customer customer in Model.Customers)
+                @foreach (CustomerResponse customer in Model.Customers)
                 {
                     <tr>
                         <!-- Table Data -->
-                        <td>@customer.CustomerId</td>
                         <td>@customer.Name</td>
                         <td>@customer.PhoneNumber</td>
                         <!-- Returns total number of order Per Customer -->
-                        <td>@Model.Orders.Count(order => order.CustomerId == customer.CustomerId)</td>
+                        <td>@customer.TotalOrder</td>
                         <!-- Returns the total amount ordered Per Customer -->
-                        <td>@Model.Orders.Where(order => order.CustomerId == customer.CustomerId).Sum(order => order.Amount)</td>
+                        <td>@customer.TotalAmount</td>
                     </tr>
                 }
             </tbody>
